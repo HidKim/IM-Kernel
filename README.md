@@ -1,4 +1,4 @@
-# Python Code for Survival Permanental Process 
+# Python Code for Inverse M-Kernels 
 This library provides linear universal approximators of non-negative functions with inverse M-kernels. For details, see our NeurIPS2024 paper [1].
 
 The code was tested on Python 3.10.8.
