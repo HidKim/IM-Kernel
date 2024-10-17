@@ -1,12 +1,12 @@
 # Python Code for Survival Permanental Process 
 This library provides non-negativity-constrained function estimators with inverse M-kernels. For details, see our NeurIPS2024 paper [1].
 
-The code was tested on Python 3.10.8, pandas 2.0.1, tensorflow-deps 2.10.0, tensorflow-macos 2.10.0, and tensorflow-metal 0.6.0.
+The code was tested on Python 3.10.8.
 
 # Installation
-To install latest version:
+~~To install latest version:~~ Under construction!
 ```
-pip install git+https://github.com/HidKim/SurvPP
+pip install git+https://github.com/HidKim/IM-Kernel
 ```
 
 # Basic Usage
