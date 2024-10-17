@@ -54,13 +54,13 @@ r_est = model.predict(y, conf_int=[0.025,0.5,0.975])
   >The predicted values of hazard function at the specified points.
 
 # Reference
-1. Hideaki Kim. "Inverse M-Kernels for Linear Universal Approximators of Non-Negative Functions", *Advances in Neural Information Processing Systems 38*, 2024.
+1. Hideaki Kim. "Inverse M-Kernels for Linear Universal Approximators of Non-Negative Functions", *Advances in Neural Information Processing Systems 37*, 2024.
 ```
 @inproceedings{kim2024inversem,
   title={Inverse M-Kernels for Linear Universal Approximators of Non-Negative Functions},
   author={Kim, Hideaki},
-  booktitle={Advances in Neural Information Processing Systems 38},
-  year={2023}
+  booktitle={Advances in Neural Information Processing Systems 37},
+  year={2024}
 }
 ``` 
 
