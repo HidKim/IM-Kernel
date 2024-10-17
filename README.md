@@ -1,5 +1,5 @@
 # Python Code for Survival Permanental Process 
-This library provides survival permanental process (SurvPP) implemented in Tensorflow. SurvPP provides a scalable Bayesian framework for survival analysis with time-varying covariates. For details, see our NeurIPS2023 paper [1].
+This library provides non-negativity-constrained function estimators with inverse M-kernels. For details, see our NeurIPS2024 paper [1].
 
 The code was tested on Python 3.10.8, pandas 2.0.1, tensorflow-deps 2.10.0, tensorflow-macos 2.10.0, and tensorflow-metal 0.6.0.
 
@@ -54,12 +54,12 @@ r_est = model.predict(y, conf_int=[0.025,0.5,0.975])
   >The predicted values of hazard function at the specified points.
 
 # Reference
-1. Hideaki Kim. "Survival Permanental Processes for Survival Analysis with Time-Varying Covariates", *Advances in Neural Information Processing Systems 36*, 2023.
+1. Hideaki Kim. "Inverse M-Kernels for Linear Universal Approximators of Non-Negative Functions", *Advances in Neural Information Processing Systems 38*, 2024.
 ```
-@inproceedings{kim2023survival,
-  title={Survival Permanental Processes for Survival Analysis with Time-Varying Covariates},
+@inproceedings{kim2024inversem,
+  title={Inverse M-Kernels for Linear Universal Approximators of Non-Negative Functions},
   author={Kim, Hideaki},
-  booktitle={Advances in Neural Information Processing Systems 36},
+  booktitle={Advances in Neural Information Processing Systems 38},
   year={2023}
 }
 ``` 
